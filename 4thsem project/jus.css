@@ -1,30 +1,63 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
 
-#div{
-    background-color:rgb(41, 39, 39) ;
-    border-color: aliceblue;
-}
-#logo{
+#header{
     display: flex;
-    padding-top: 70px;
-    padding-left: 40px;
-    height: 60px;
-    width: 50px;
-    border-radius: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(41, 39, 39);    
 }
-#navi{
+
+#bharatpe_img{
+    height: 40px;
+    width:155px;
+    margin-left: 20px;
+}
+
+#list_head_items{
+    font-size: medium;
     display: flex;
-    justify-content: end;
-    gap: 60px;
-   
-   
-        
+    gap: 70px; 
+    font-family:sans-serif ;
+    align-items: center;
+    
+}
+
+
+.anchorA{
     color: white;
+    text-decoration: none;  /*To remove the underline of link */
 }
+
+
+#login{
+    display: flex;
+    align-items: center;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    font-size: large;
+    height: 40px;
+    background-color: white;
+    
+}
+#login_items{
+    padding: 0.25px 7px 0.25px 7px;
+    display: flex;
+    gap: 5px;
+}
+.login_item1{
+    color: black;
+    text-decoration: none;
+}
+
+
 #head1{
     color: rgb(98, 98, 239);
-    padding-left: 45px;
     margin-top: 100px;
-    font-size: xxx-large;
+    font-size: 3rem;
     
 }
 #yashi{
@@ -93,10 +126,12 @@
 #div5{
     display:flex;
     flex-direction: column;
-   
     margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 #yashika{
+
     font-size: 60px;
     color: rgb(10, 10, 98);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -144,7 +179,7 @@
     margin-top: 100px;
     background-color: rgb(221, 236, 243);
 }
-#contact{
+/* #contact{
     
     position: fixed;
     top: 480px;
@@ -155,23 +190,12 @@
     border-radius: 20px ;
     background-color: rgb(52, 52, 225);
     border-color: rgb(52, 52, 225);
-}
-#view{
-    display: flex;
-    justify-content: end;
-    gap: 80px;
-   
-        
-    color: white;
-}
-#up{
-    width: 100px;
-    border-radius: 20px;
-}
+} */
+
 #paraagraph{
     display:flex;
     flex-direction: column;
-   
+   margin-top: 100px;
     margin-left: 100px;
 
 }
@@ -193,8 +217,7 @@
 .main5{
     display: flex;
     flex-direction: column;
-
-    background-color: rgb(23, 23, 42);
+    background-color: rgb(41, 39, 39);
     margin-top: 70px;
     
 }
@@ -288,8 +311,14 @@
 }
 #main8{
     display: flex;
-   justify-content: center;
-   background-color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    /* margin-bottom: 100px; */
+}
+#main8_div{
+    margin-bottom: 100px;
 }
 #succ{
     font-size: 60px;
@@ -299,9 +328,15 @@
 #main9{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: aliceblue;
-    padding-bottom: 6rem;
+    margin-bottom: 100px;
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
 #swiggy{
@@ -314,15 +349,13 @@
     color:black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 #instamart{
    
-    /* border-style: inset; */
-    border-radius: 2rem;
-    background-color: white;
-    width: 500px;
-    height: 400px;
+    font-size: 20px;
+    line-height: 30px;
+   
 }
 #paragraph10{
     display: flex;
@@ -376,5 +409,4 @@
     border-color: rgb(52, 52, 225);
     height: 50px;
     border-radius: 20px;
-
 }
